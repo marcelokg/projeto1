@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, aside button{
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Cinzel', serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Play', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container{
+    max-width: 1366px;
+    width: 100%;
+}
+
+.container header h1{
+    font-size: 45px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Cinzel', serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Play', sans-serif;
+    padding: 20px;
+}
+
+header{
+    color: blanchedalmond;
+    background-color: #700600;
+}
+
+.container header img{
+    height: 70px;
+}
+
+.container header{
+    display: flex;
+    align-items: center;
+}
+
+nav{
+
+    background-color: #702622;
+    padding: 10px;
+    margin-bottom: 7px;
+}
+
+nav a{
+    color: blanchedalmond;
+    margin-left: 0;
+    margin-right: 30px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Cinzel', serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Play', sans-serif;
+}
+
+.container article{
+
+    background-color: #72717134;
+    width: 70%;
+    margin-left: 10px;
+    padding-bottom: 50px;
+    border-radius: 4px;
+
+}
+
+section h2{
+    color: beige;
+    background-color: #611f1f ;
+    padding: 5px;
+    padding-bottom: 10px;
+    width: 70%;
+    margin-left: 10px;
+    border-radius: 4px;
+}
+
+section h3{
+    color: beige;
+    padding-left: 30px;
+    margin-left: 10px;
+    background-color: #636060;
+    width: 70%;
+}
+
+section h4{
+    padding-top: 10px;
+    margin-left: 60px;
+}
+
+section p{
+    margin-left: 30px;
+    width: 95%;
+}
+
+section img{
+    height: 200px;
+    width: 400px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    border: 2px solid #636060;
+}
+
+#literatura article img{
+    height: 200px;
+}
+
+.conteudo, .pag-principal{
+    text-align: justify;
+}
+
+.conteudo p{
+    padding-top: 10px;
+}
+
+#conteudo-artistico p{
+    padding-left: 50px;
+}
+
+.pag-principal article{
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 10px;
+}
+
+#titulo-apre{
+    margin-left: 416px;
+    width: 53%;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+.img-left{
+    float: left;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 10px;
+}
+
+.img-left img{
+    margin: 0;
+}
+
+.img-boas-left img{
+    float: left;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 0;
+    margin-right: 5px;
+    border: none;
+}
+
+.img-boas-right img {
+    float: right;
+    height: 400px;
+    margin-right: 13px;
+    margin-top: 0;
+    margin-left: 5px;
+    border: none;
+}
+
+.img-right{
+    float: right;
+    margin-left: 10px;
+    margin-right: 33px;
+    margin-top: 12px;
+}
+
+.img-right img{
+    margin: 0;
+}
+
+.sociais img{
+    height: 40px;
+    margin: 10px 20px;
+}
+
+aside{
+    display: block;
+    width: 28%;
+    float: right;
+    text-align: center;
+    background-color: #72717134;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+aside h2{
+    color: beige;
+    background-color: #611f1f ;
+    border-radius: 4px;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+aside p{
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+form{
+    padding: 10px ;
+}
+
+form input, form label, form textarea{
+    display: block;
+    width: 280px;
+    margin: auto;
+}
+
+form label{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+form input{
+    padding: 5px;
+}
+
+form textarea{
+    resize: none;
+    height: 90px;
+}
+
+aside button{
+    width: 150px;
+    background-color:#702622;
+    color: beige;
+    font-size: 18px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+aside button:hover{
+    background-color: #a10d06
+}
+
+footer{
+    background-color: #700600;
+    color: beige;
+    text-align: center;
+    padding: 10px;
+}
